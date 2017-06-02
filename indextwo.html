@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="bs/css/bootstrap.css" />
+		<script>
+			document.documentElement.style.fontSize=innerWidth/16+"px";
+		</script>
+		<style>
+		*
+		{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body,html
+		{
+			width:100%;
+			height:100%;
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+		}
+		header
+		{
+			width:100%;
+			height: 2.1rem;
+			display:flex;
+			background:green;
+			padding-top:0.2rem;
+			padding-left:0.5rem;
+			padding-right:0.5rem;
+			padding-bottom: 0.2rem;
+		}
+		header span
+		{
+			display:inline-block;
+			width:1rem;
+			height:1rem;
+			color:red;
+			margin-top:0.25rem;
+		}
+		header p
+		{
+			display: inline-block;
+			flex:1;
+			line-height: 1.2rem;
+		}
+		header p:nth-child(2) 
+		{
+			text-align: end;
+		}
+		header p:nth-child(2) b
+		{
+			display:inline-block;
+			width:3rem;
+			height: 80%;
+			background:#ABCDEF;
+			border-bottom-left-radius: 1rem;
+			border-top-left-radius: 1rem;
+			text-align: center;
+			color:white;
+			font-size:0.8rem;
+		}
+		header p:nth-child(3) b
+		{
+			display:inline-block;
+			width:3rem;
+			height: 80%;
+			background:#ccc;
+			border-bottom-right-radius: 1rem;
+			border-top-right-radius: 1rem;
+			text-align: center;
+			color:white;
+			font-size:0.8rem;
+		}
+		.u
+		{
+			width:100%;
+			height:1.5rem ;
+		}
+		.u ul
+		{
+			width:100%;
+			height:100%;
+			display: flex;
+			list-style: none;
+			line-height:150%;
+			border-bottom: 1px solid #ccc;
+		}
+		.u ul li
+		{
+			flex:1;
+			text-align: center;
+			color:#666;
+			font-size:0.8rem;
+		}
+		section
+		{
+			flex: 1;
+			overflow-y: auto;
+		}
+		section ul
+		{
+			width:100%;
+			height:100%;
+			display:flex;
+			list-style: none;
+			flex-wrap:wrap;
+			box-sizing: border-box;
+		}
+		section ul li
+		{
+			width:47%;
+			height:5.5rem;
+			margin:0.24rem 0.24rem;
+		}
+		section ul li img
+		{
+			width:100%;
+			height:3.5rem;
+		}
+		section ul li p
+		{
+			margin-top:-0.5rem;
+			width:100%;
+			height: 3rem;
+			font-size:0.5rem;
+			padding:0.2rem 0.1rem 0.2rem 0.1rem;
+		}
+		footer
+		{
+			width:100%;
+			height: 3rem;
+			border-top:1px solid #ccc ;
+		}
+		footer ul
+		{
+			width:100%;
+			height: 100%;
+			display:flex;
+			list-style: none;
+		}
+		footer ul li
+		{
+			flex: 1;
+			text-align: center;
+			margin-top:0.5rem;
+		}
+		footer ul li img
+		{
+			width:1rem;
+			height:1rem;
+		}
+		footer ul li p
+		{
+			font-size:0.5rem;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<header>
+			<span class="glyphicon glyphicon-tasks"></span>
+			 <p><b>热点</b></p>
+			 <p><b>关注</b></p>
+			 <span class="glyphicon glyphicon-repeat"></span>
+		</header>
+		<div class="u">
+		<ul>
+			<li>足球现场</li>
+			<li>足球生活</li>
+			<li>足球美女</li>
+		</ul>
+		</div>
+		<section>
+			<ul>
+				<li><img src="img/youtube.png"><p>大撒旦撒大帝飒沓阿萨德阿德萨撒旦爱的飒沓阿萨德撒</p></li>
+				<li><img src="img/youtube.png"><p>大撒旦撒大帝飒沓阿萨德阿德萨撒旦爱的飒沓阿萨德撒</p></li>
+				<li><img src="img/youtube.png"><p>大撒旦撒大帝飒沓阿萨德阿德萨撒旦爱的飒沓阿萨德撒</p></li>
+				<li><img src="img/youtube.png"><p>大撒旦撒大帝飒沓阿萨德阿德萨撒旦爱的飒沓阿萨德撒</p></li>
+				<li><img src="img/youtube.png"><p>大撒旦撒大帝飒沓阿萨德阿德萨撒旦爱的飒沓阿萨德撒</p></li>
+				<li><img src="img/youtube.png"><p>大撒旦撒大帝飒沓阿萨德阿德萨撒旦爱的飒沓阿萨德撒</p></li>
+				<li><img src="img/youtube.png"><p>大撒旦撒大帝飒沓阿萨德阿德萨撒旦爱的飒沓阿萨德撒</p></li>
+				<li><img src="img/youtube.png"><p>大撒旦撒大帝飒沓阿萨德阿德萨撒旦爱的飒沓阿萨德撒</p></li>
+				<li><img src="img/youtube.png"><p>大撒旦撒大帝飒沓阿萨德阿德萨撒旦爱的飒沓阿萨德撒</p></li>
+			</ul>
+		</section>
+		
+		<footer>
+			<ul>
+				<li><img src="img/home2.png"><p>首页</p></li>
+				<li><img src="img/home2.png"><p>首页</p></li>
+				<li><img src="img/home2.png"><p>首页</p></li>
+				<li><img src="img/home2.png"><p>首页</p></li>
+				<li><img src="img/home2.png"><p>首页</p></li>
+			</ul>
+		</footer>
+	</body>
+</html>
